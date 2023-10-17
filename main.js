@@ -1,63 +1,43 @@
-// var name = "Salom";
+// let name = prompt("Ismingiz nima");
+// let age = prompt("yoshingizni kiriting ");
 
-// var age = 20;
+//Type of
 
-// console.log(name);
-// console.log(age);
+// amalllarni bajarish
+// console.log(3 - 2);
+// console.log(2 + 3);
+// console.log(2 * 9);
+// console.log(20 / 10);
+// console.log(2 ** 20);
+// console.log(2 ** 2);
+// console.log(10 % 5);
+// console.log(11 % 3);
+
+//QOSHISHNI IKKINCHI TURI CONCATINATION
 
 // let name = "Samandar";
 // let age = 20;
 
-// console.log(name);
-// console.log(age);
+// let result = name + age;
 
-// const name = "Samandar";
-// console.log(name);
+// console.log(result);
 
-// console.log(name);
-// var name = "Samandar";
-// let name = "Samandar";
+// masala
 
-// console.log(name);
-
-// const name = "Nozim";
-
-// let name = 'Samandar'
-// let age = 20
-// let isMarried = true
-
-// let name = "Samandar",
-//   age = 20,
-//   isMarried = false;
-
-// console.log(name , age , isMarried);
-
-// NUMBER TYPE
-
-// let age = 20;   //raqam
-
-//STRING TYPE
-
-// let name = '20'
-
-// BOOLEAN  TYPE
-
-// let isMarried = false  // yolg'on
-// let isMarried = true   Rost
-
-//  let age = null
-
-// let name;
-// const age
-
-// console.log(name);
-
-// let name = "Samandar";
-// const age = 20;
-
-// alert("Ismi:" + name + "Yoshi :" + age);
-
-// let name = prompt("Ismingiz nima");
+// let name = prompt("Ismingizni kiritng !!!");
 // let age = prompt("Yoshingizni kiriting ");
+// let result = Number(age);
+// let year = 2023 - result;
+// console.log(year);
 
-// console.log(name, age);
+// let lastResult = `${name} siz  ${year} yilda tugulgan ekansiz  `;
+// alert(lastResult);
+
+// backtic
+// let age = 20;
+
+// let name = `Feruz    ${age}     `;
+
+let age = 20;
+let name = "Feruz   ${age}";
+console.log(name);
