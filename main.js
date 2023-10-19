@@ -1,43 +1,82 @@
-// let name = prompt("Ismingiz nima");
-// let age = prompt("yoshingizni kiriting ");
+// var name = "Samandar";
 
-//Type of
+// name = "Nozim";
 
-// amalllarni bajarish
-// console.log(3 - 2);
-// console.log(2 + 3);
-// console.log(2 * 9);
-// console.log(20 / 10);
-// console.log(2 ** 20);
-// console.log(2 ** 2);
-// console.log(10 % 5);
-// console.log(11 % 3);
+// console.log(name);
 
-//QOSHISHNI IKKINCHI TURI CONCATINATION
+// let name = "samandar";
 
-// let name = "Samandar";
-// let age = 20;
+// name = 'Fozil'
 
-// let result = name + age;
+// console.log(name);
 
+// const name = "Samandar";
+
+// name = 'Fozil'
+// console.log(name);
+
+//NUMBER
+
+// let age = prompt("iltimos yoqtirgan raqamni kirit ");
+
+// let newAge = Number(age);
+// console.log(newAge, age);
+
+//  +  (Addition)
+
+// let age = +prompt("raqam kirit");
+// console.log( typeof age);
+
+// toString()
+
+// let age = 30;
+// let str = age.toString();
+// console.log( typeof age);
+// console.log(typeof str);
+
+// let num = 20;
+
+// console.log(num);
+
+// let num = 1.26669455;
+
+// // let newNum = Math.floor(num);
+// // let newAge = Math.ceil(num);
+// // let newAge = Math.round(num);
+// console.log(newAge);
+
+// && === va
+
+//
+
+// 1 masala
+
+// let a = 10;
+// let b = 5;
+// let c = a + b;
+// console.log(c);
+
+// 2 masala
+
+// let a = 25;
+// let b = 15;
+// let result = a - b;
 // console.log(result);
 
-// masala
+// 3-masala
+// let a = 10;
+// let b = 5;
+// let c = a - b;
+// console.log(c);
 
-// let name = prompt("Ismingizni kiritng !!!");
-// let age = prompt("Yoshingizni kiriting ");
-// let result = Number(age);
-// let year = 2023 - result;
-// console.log(year);
+// // 4masala
 
-// let lastResult = `${name} siz  ${year} yilda tugulgan ekansiz  `;
-// alert(lastResult);
+// let a = 10;
+// let b = 3;
+// let c = a % b;
+// console.log(c);
 
-// backtic
-// let age = 20;
+// 5 masala
 
-// let name = `Feruz    ${age}     `;
-
-let age = 20;
-let name = "Feruz   ${age}";
-console.log(name);
+// let num = 2 ** 10;
+// console.log(num);
