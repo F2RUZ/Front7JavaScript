@@ -1,82 +1,69 @@
-// var name = "Samandar";
+// Number turiga o'tkazish
 
-// name = "Nozim";
+// let age = prompt("iltimos yoshingizni kiting ");
+// console.log(typeof age);
 
-// console.log(name);
+// // Number
+// let num = Number(age);
+// console.log( typeof num);
 
-// let name = "samandar";
+// let age = +prompt("son kirit ");
+// console.log(typeof age);
 
-// name = 'Fozil'
-
-// console.log(name);
-
-// const name = "Samandar";
-
-// name = 'Fozil'
-// console.log(name);
-
-//NUMBER
-
-// let age = prompt("iltimos yoqtirgan raqamni kirit ");
-
-// let newAge = Number(age);
-// console.log(newAge, age);
-
-//  +  (Addition)
-
-// let age = +prompt("raqam kirit");
-// console.log( typeof age);
-
-// toString()
-
-// let age = 30;
-// let str = age.toString();
-// console.log( typeof age);
-// console.log(typeof str);
+// String()
 
 // let num = 20;
+// let name = String(num);
 
-// console.log(num);
+// console.log(typeof name);
 
-// let num = 1.26669455;
+// Boolean()
+// let isMarried = "False";
 
-// // let newNum = Math.floor(num);
-// // let newAge = Math.ceil(num);
-// // let newAge = Math.round(num);
-// console.log(newAge);
+// let False = Boolean(isMarried);
 
-// && === va
+// console.log(isMarried);
 
-//
+// // console.log(typeof isMarried);
+
+// console.log('27' - 15);
+// let age = +prompt("iltimos son kirit");
+
+// if (age > 10) {
+//   console.log("son 10 dan katta ekan ");
+// } else {
+//   console.log("10dan kichik ekan ");
+// }
+
+// if(){
+
+// }else{
+
+// }
 
 // 1 masala
 
-// let a = 10;
-// let b = 5;
-// let c = a + b;
-// console.log(c);
+// let tomon = 50;
 
-// 2 masala
+// let peremetr = 4 * tomon;
 
-// let a = 25;
-// let b = 15;
-// let result = a - b;
-// console.log(result);
+// console.log(peremetr);
 
-// 3-masala
-// let a = 10;
-// let b = 5;
-// let c = a - b;
-// console.log(c);
+// let tomon = 30;
 
-// // 4masala
+// let Yuzi = tomon ** 2;
+// console.log(Yuzi);
 
-// let a = 10;
-// let b = 3;
-// let c = a % b;
-// console.log(c);
+// let a = 20;
+// let b = 30;
 
-// 5 masala
+// let peremetr = 2 * (a + b);
 
-// let num = 2 ** 10;
-// console.log(num);
+// let Yuzi = a * b;
+// console.log(peremetr, Yuzi);
+
+// let diametr = 20;
+
+// let p = 3.14;
+// let L = p * diametr;
+// console.log(L);
