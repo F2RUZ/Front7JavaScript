@@ -1,69 +1,46 @@
-// Number turiga o'tkazish
+let num = 9;
 
-// let age = prompt("iltimos yoshingizni kiting ");
-// console.log(typeof age);
-
-// // Number
-// let num = Number(age);
-// console.log( typeof num);
-
-// let age = +prompt("son kirit ");
-// console.log(typeof age);
-
-// String()
-
-// let num = 20;
-// let name = String(num);
-
-// console.log(typeof name);
-
-// Boolean()
-// let isMarried = "False";
-
-// let False = Boolean(isMarried);
-
-// console.log(isMarried);
-
-// // console.log(typeof isMarried);
-
-// console.log('27' - 15);
-// let age = +prompt("iltimos son kirit");
-
-// if (age > 10) {
-//   console.log("son 10 dan katta ekan ");
+// if (num > 10) {
+//   alert("10 dan katta ");
 // } else {
-//   console.log("10dan kichik ekan ");
+//   alert("10dan kichik");
 // }
 
-// if(){
+// if (num > 5) {
+//   alert("5 dan katta");
+// } else if (num < 3) {
+//   alert("3 dan kichik");
+// } else if (num < 45) {
+//   alert("bubcw");
+// } else {
+//   alert("wcwfefee");
+// }
 
-// }else{
+// if(null){
 
 // }
 
-// 1 masala
+// getelementClassName
 
-// let tomon = 50;
+// let elTitle = document.getElementsByClassName("title");
 
-// let peremetr = 4 * tomon;
+// let elTitle2 = document.getElementById("h2");
+// console.log(elTitle2);
 
-// console.log(peremetr);
+// let elDiv = document.getElementsByTagName("div");
+// console.log(elDiv);
 
-// let tomon = 30;
+// let elTitle = document.querySelector(".title");
 
-// let Yuzi = tomon ** 2;
-// console.log(Yuzi);
+// let elTitle2 = document.querySelector("#h2");
 
-// let a = 20;
-// let b = 30;
+// let elDiv = document.querySelector("div");
+// console.log(elTitle2);
+// console.log(elDiv);
+// console.log(elTitle);
+// let body = document.querySelector(body);
 
-// let peremetr = 2 * (a + b);
+let elTitle = document.querySelectorAll(".title");
 
-// let Yuzi = a * b;
-// console.log(peremetr, Yuzi);
-
-// let diametr = 20;
-
-// let p = 3.14;
-// let L = p * diametr;
-// console.log(L);
+console.log(elTitle);
+elTitle.innerHTML = "salom";
